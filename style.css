@@ -84,6 +84,11 @@ h1 {
   background-color: var(--button-hover-bgc);
   color: var(--primary-color);
 }
+.btn:focus {
+  background-color: var(--button-hover-bgc);
+  color: var(--primary-color);
+  outline: 2px solid #000;
+}
 
 @media (max-width: 375px) {
   .container {
